@@ -16,25 +16,25 @@
 #
 # Sawtooth -- Settings Transaction Processor Configuration
 #
+[vote_setting]
+proposal_active_days = 1
+approval_treshold = 1
+
 [about]
-NewUserLink = "http://129.108.7.2/connect/tmp.pZVo4EbxiG"
+NewuserLink = "http://129.108.7.2/connect/tmp.pZVo4EbxiG"
 Title = "Code Smell Family Configuration"
 
-[vote_setting]
-proposal_active_days = 5
-approval_treshold = 3
-
 [code_smells.class]
-LargeClass = [ 999, 1,]
-GodClass = [ 5, 1,]
-SmallClass = [ 1, 1,]
-InappropriateIntimacy = [ 2, 1,]
+SmallClass = [ 10, 1,]
+GodClass = [ 30, 1,]
+InappropriateIntimacy = [ 20, 1,]
+LargeClass = [ 20, 1,]
 
 [code_smells.comments]
-CommentsToCodeRatioUpper = [ 0.1, 0.01,]
-CommentsToCodeRatioLower = [ 0.2, 0.01,]
+CommentsToCodeRatioUpper = [ 30.0, 1.0,]
+CommentsToCodeRatioLower = [ 25.0, 1.0,]
 
 [code_smells.method]
-LargeMethod = [ 250, 1,]
-LargeParameterList = [ 4, 1,]
-SmallMethod = [ 10, 1,]
+LargeMethod = [ 30, 1,]
+LargeParameterList = [ 20, 1,]
+SmallMethod = [ 25, 1,]
